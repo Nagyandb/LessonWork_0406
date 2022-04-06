@@ -5,7 +5,7 @@ public class DigitAdder {
     public static void main(String[] args) {
         int number = -5483229;
 
-        System.out.println(addDigits(5483229));
+        System.out.println(addDigits(number));
     }
 
     /**

@@ -1,5 +1,7 @@
 package main.tasks;
 
+import main.WithoutTest;
+
 public class Task {
 
     /**
@@ -12,6 +14,8 @@ public class Task {
         használd a WithoutTest osztályban lévő isPrime metódust - például így:
         boolean isPrime = WithoutTest.isPrime(2);
          */
+        boolean isPrime = WithoutTest.isPrime(2);
+
         return -1;
     }
 
