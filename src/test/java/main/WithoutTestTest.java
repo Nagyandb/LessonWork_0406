@@ -57,7 +57,14 @@ class WithoutTestTest {
 
     @Test
     void test_trafficLight() {
-        String result1;
+        String result1 = WithoutTest.trafficLight("zöld");
+        assertEquals("SZABAD", result1);
+        String result2 = WithoutTest.trafficLight("sárga");
+        assertEquals("LASSÍTS", result2);
+        String result3 = WithoutTest.trafficLight("piros");
+        assertEquals("MEGÁLLJ", result3);
+        String result4 = WithoutTest.trafficLight("");
+        assertEquals("NEM TUDOM", result4);
     }
 
     @Test
