@@ -57,7 +57,7 @@ class WithoutTestTest {
 
     @Test
     void test_trafficLight() {
-        String resul1;
+        String result1;
     }
 
     @Test
